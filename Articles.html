@@ -7,74 +7,100 @@
     <meta property="og:title" content="junior frontend dev">
     <meta property="og:description" content="Check out these pages">
     <meta property="og:type" content="Articles">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/spec.css">
     <title>Document</title>
 </head>
 <body>
     <header>
         <nav>
-            <h1 ><font color="darkgreen">Oussaye</font></h1>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="Articles.html">Articles</a></li>
-                <li><a href="Projects.html">Projects</a></li>
-                <li><a href="Contact.html">Contact</a></li>
+            <section class="name-bar"><h1>PROFILE</h1></section>
+            <section class="navigation-bar">
+            <ul class="list">
+                <li class="list-1"><a href="index.html">Home</a></li>
+                <li class="list-1"><a href="Articles.html">Articles</a></li>
+                <li class="list-1"><a href="Projects.html">Projects</a></li>
+                <li class="list-1"><a href="Contact.html">Contact</a></li>
             </ul>
+            </section>
         </nav>
     </header>
     <main>
-        <section><h1>ARTICLES PAGE</h1></section>
-        <section>
-            <h2>Work Experience</h2>
-            <article>
-                <p>roadmap.sh</p>
-                <p>Solved all the frontend projects</p>
-                <p><a href="">visit my profile</a></p>
-            </article>
-            <h2>OpenSource Work </h2>
-            <article>
-                <p>Contributed to 50 opensourceprojects.<br>
-                Made my own projects  with 200 GitHub Stars.</p>
-                <p><a href="">visit my GitHub Profile</a></p>
-            </article>
-            <h2>Education</h2>
-            <article>
-                <p>Graduated with 3.76 out of 4 <br>
-                CGPA. Won Acme Hackathon. <br>
-                Organized 30 sessions.</p>
-                <h4>Cources I Took</h4>
-                <p>-Object Oriented Programming <br>
-                    -Data Structures and Algorithms <br>
-                    -Web Engineering <br>
-                    -Artificial Intellegence <br>
-                    -Computer Graphics <br>
-                    -Database Management Systems <br>
-                </p>
-            </article>
-        </section>
-        <section>
-            <h1>Reviews From my Teachers</h1>
-            <article>
-                <p>a brilliant student. <br>
-                always stood out with his <br>
-                assignments.</p>
-                <p>Jane Doe</p>
-                <p>Assistant Professor</p>
-            </article>
-            <article>
-                <p>a brilliant student. <br>
-                always stood out with his <br>
-                assignments.</p>
-                <p>Jane Doe</p>
-                <p>Assistant Professor</p>
-            </article>
-            <article>
-                <p>a brilliant student. <br>
-                always stood out with his <br>
-                assignments.</p>
-                <p>Jane Doe</p>
-                <p>Assistant Professor</p>
-            </article>
-        </section>
+        <div>
+            <section class="page-title"><h1 class="title">ARTICLES PAGE</h1></section>
+            <section class="in-sumary3">
+                <section class="full">
+                    <div class="block">
+                    <h2 class="sph">Work Experience</h2>
+                        <article class="road">
+                            <p>roadmap.sh <br>
+                            Solved all the frontend projects. </p>
+                            <p> <a href="index.html"><strong class="clr">visit my profile</strong></a></p>
+                        </article>
+                    </div>
+                    <div class="block">
+                    <h2 class="sph">OpenSource Work </h2>
+                        <article class="road">
+                            <p>Contributed to 50 opensourceprojects.<br>
+                            Made my own projects with <br> 200 GitHub Stars.</p>
+                            <p><a href="https://github.com/OussamaRami" target="_blank"><strong class="clr">visit my GitHub Profile</strong></a></p>
+                        </article>
+                    </div>
+                    <div class="block">
+                    <h2 class="sph">Education</h2>
+                        <article class="road">
+                            <p class="edu-graph">Graduated with 3.76 out of 4 <br>
+                            CGPA. Won Acme Hackathon. <br>
+                            Organized 30 sessions.</p>
+                        </article>
+                    </div>
+                </section>
+                <section>
+                    <h4 class="cource">Cources I Took</h4>
+                    <p class="cource-title">-Object Oriented Programming- <br>
+                        -Data Structures and Algorithms- <br>
+                        -Web Engineering- <br>
+                        -Artificial Intellegence- <br>
+                        -Computer Graphics- <br>
+                        -Database Management Systems- <br>
+                    </p>
+                </section>
+            <section class="in-sumary3">
+                <h1 class="review">Reviews From my Teachers</h1>
+                <section class="grid-pace">
+                    <article >
+                        <div class="diven">
+                        <p class="pgraph">a brilliant student. <br>
+                        always stood out with his <br>
+                        assignments.</p>
+                        <p class="name">Jane Doe</p>
+                        <p class="job">Assistant Professor</p>
+                        </div>
+                    </article>
+                    <article >
+                        <div class="diven">
+                        <p class="pgraph">a brilliant student. <br>
+                        always stood out with his <br>
+                        assignments.</p>
+                        <p class="name">Jane Doe</p>
+                        <p class="job">Assistant Professor</p>
+                        </div>
+                    </article>
+                    <article>
+                        <div class="diven">
+                        <p class="pgraph">a brilliant student. <br>
+                        always stood out with his <br>
+                        assignments.</p>
+                        <p class="name">Jane Doe</p>
+                        <p class="job">Assistant Professor</p>
+                        </div>
+                    </article>
+                </section>
+            </section>
+        </div>
     </main>
     <footer>
         <p>&copy; Website 2026. All rights reserved.</p>
