@@ -2,7 +2,7 @@ body {
     font-family: roboto, Arial, Helvetica, sans-serif;
     padding-bottom: 140px;
     position: relative;
-    background-image: url('/assets/pic2.jpg');
+    background-image: url('/assets/pic.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
